@@ -1,0 +1,229 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  
+}
+
+body {
+    background-color: #BBE4E9;
+    font-family: 'Noto Sans Zanabazar Square';
+   
+   
+}
+/* header start */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #5585B5;
+    width: 100%;
+    color: white;
+}
+
+
+header img {
+   
+    object-fit: cover;
+    width: 14%;
+    border-radius: 90px;
+    padding: 20px;
+    transition: transform .7s;
+   
+}
+
+header img:hover {
+    transform:scale(1.02);
+   background-color: #8cd2e0;
+   padding: 8px ;   
+}
+
+header .navbar h3 {
+
+    color: rgba(219, 215, 215, 0.875);
+    text-align: center;
+}
+ /* header end  */
+
+
+
+ /* navbar start */
+
+nav {
+    display: flex;
+    gap: 10px;
+    justify-content:end;
+    background-color: #8cd2e0;
+    justify-content: space-between;
+   
+   
+}
+
+nav  ul {
+    display: flex;
+    list-style: none;
+    margin: 30px;
+   
+}
+
+nav ul li a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 250, 250);
+    gap: 50px;
+    transition: transform .7s;
+    margin: 5px 15px;
+    padding: 3px;
+    
+    
+    
+}
+
+nav ul li a:hover {
+
+    background-color: #BBE4E9;
+    transform: scale(1.1);
+    border-radius: 10px;
+    padding: 3px;
+    color: #729493;
+}
+
+nav .logoo {
+    display: flex;
+    margin: 10px 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 28px;
+    cursor: pointer;
+    
+}
+nav .logoo i {
+    transition: transform .3s;
+}
+nav .logoo i:hover {
+    color: rgb(29, 248, 248);
+    transform: scale(1.4);
+
+}
+
+/* navbar end */
+
+section  {
+   display: flex;
+   margin: 30px auto;
+   gap: 5px;
+ justify-content:space-around;
+}
+
+section .content-1 {
+   text-align: center;
+   background-color: #718ba584;
+   padding: 20px;
+   border-radius: 20px;
+   transition: transform .4s;
+   border: 0.5px rgba(57, 56, 56, 0.766) solid;
+}
+
+section .content-1:hover {
+    background-color: #8e9ba7d6;
+    color:rgb(9, 103, 103);
+    transform: scale(1.1);
+}
+
+section .content-1 h4 {
+
+    background-color: #8cd2e0;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 90px;
+    border: 0.5px rgba(57, 56, 56, 0.766) solid;
+
+
+}
+
+section .school {
+   
+   text-align: center;
+   background-color: #718ba584;
+   border-radius: 20px;
+   border: 0.5px rgba(57, 56, 56, 0.766) solid;
+   width: 20%;
+   transition: transform .4s;
+  
+}
+
+section .school:hover {
+    background-color: #8e9ba7d6;
+    color:rgb(9, 103, 103);
+    transform: scale(1.1);
+}
+
+section .school .education {
+    
+    margin: 20px 40px;
+    border: 0.5px rgba(57, 56, 56, 0.766) solid;
+}
+section .keahlian {
+    text-align: center;
+    background-color: #718ba584;
+   border-radius: 20px;
+   border: 0.5px rgba(57, 56, 56, 0.766) solid;
+   width: 20%;
+   transition: transform .4s;
+ 
+   
+}
+
+section .keahlian:hover {
+    background-color: #8e9ba7d6;
+    color:rgb(9, 103, 103);
+    transform: scale(1.1);
+
+}
+
+
+section .gambar img {
+    object-fit: cover;
+    width: 20%;
+    margin: 20px 20px;
+}
+ 
+/* about  */
+
+.tentangsaya {
+    text-align: center;
+    background-color: #718ba584;
+   border-radius: 20px;
+   border: 0.5px rgba(57, 56, 56, 0.766) solid;
+   width: 90%;
+   transition: transform .4s;
+   margin: 50px 66px auto;
+   padding: 20px;
+   
+}
+.tentangsaya h1 {
+    text-align: center;
+    background-color: #718ba584;
+    border-radius: 20px;
+    border: 0.5px rgba(57, 56, 56, 0.766) solid;
+    margin-bottom: 30px;
+
+}
+
+.map iframe {
+    border: none;
+    border-radius: 15px;
+}
+
+footer{
+    background-color: #5585B5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
